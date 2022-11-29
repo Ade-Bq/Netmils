@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+<<<<<<< HEAD
+    filter: brightness(85%);
+}
+
+header{
+    background: url("./images/netflix_img.jpg") no-repeat  center/cover;
+=======
+    background: url("./nfbground.jpg") no-repeat center center/cover;
+>>>>>>> 4ea6d85756debca5c9b58cf2400cef9477cd9955
+}
+
+.head {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+}
+
+.head2 {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.head2 img {
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(10%, -50%);
+    margin-left: 0;
+}
+
+.head2 a{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    font-weight: bold;
+    padding: 0.8% 0.8% 0.8% 0.8%;
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.content h1{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+.content h3{
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+.content p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    display: block;
+}
+
+.email {
+    box-shadow: none;
+    height: 48px;
+    width: 100%;
+}
+
+.submit {
+    box-shadow: none;
+    height: 48px;
+    width: 100%;
+    color: white;
+    background-color: crimson;
+}
+
+.submit:hover{
+    font-weight: lighter;
+}
+
+section{
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+section h1{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+section p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+.h13{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+}
+
+.parag3{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
