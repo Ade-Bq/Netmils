@@ -1,1 +1,1 @@
-https://ade-bq.github.io/Netmils_clone/
+https://ade-bq.github.io/Netmils/
